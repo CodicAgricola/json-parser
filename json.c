@@ -12,7 +12,7 @@ const struct _json_value json_value_none;
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
-#include <maths.h>
+#include <math.h>
 
 typedef unsigned int json_uchar;
 
