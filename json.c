@@ -29,7 +29,7 @@ static unsigned char hex_value (json_char c)
 {
     if (isdigit(c))
         return c - '0';
-
+//
     switch (c) {
         case 'a': case 'A': return 0x0A;
         case 'b': case 'B': return 0x0B;
